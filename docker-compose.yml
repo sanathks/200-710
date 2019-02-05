@@ -1,0 +1,10 @@
+version: "3.3"
+
+services:
+  cli:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    image: zcp/runner
+    volumes:
+      - .:/var/www/html/code
