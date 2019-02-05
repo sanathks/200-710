@@ -1,4 +1,4 @@
-FROM php:7.1-apache
+FROM php:7.2-apache
 WORKDIR ./
 RUN docker-php-ext-install mysqli
 RUN pecl install xdebug-2.6.0

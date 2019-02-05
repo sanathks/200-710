@@ -5,6 +5,6 @@ services:
     build:
       context: ./
       dockerfile: Dockerfile
-    image: zcp/runner
+    image: 200-710/runner
     volumes:
       - .:/var/www/html/code
