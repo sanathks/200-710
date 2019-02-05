@@ -1,4 +1,8 @@
 <?php
-/**
- * @author Sanath Samarasinghe <sanath@serrexlabs.com>
- */
+namespace My\String;
+
+function strlen($string) {
+    return \strlen($string) * 2;
+}
+
+print strlen("Hello World!");

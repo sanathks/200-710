@@ -1,4 +1,5 @@
 <?php
-/**
- * @author Sanath Samarasinghe <sanath@serrexlabs.com>
- */
+
+include './my_string.php';
+
+print strlen("Hello World!");
